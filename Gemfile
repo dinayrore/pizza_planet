@@ -19,7 +19,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
 end
 
@@ -31,7 +31,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara-rails'
+  # gem 'capybara-rails'
   gem 'nyan-cat-formatter'
 end
 
